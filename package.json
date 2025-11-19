@@ -1,5 +1,5 @@
 {
-  "name": "@piyush/ai-chat-widget",
+  "name": "@piyushchourey11/ai-chat-widget",
   "version": "1.0.1",
   "type": "module",
   "description": "A pluggable, standalone AI chatbot widget component for React applications with WebSocket support and form synchronization",
@@ -9,6 +9,7 @@
   "files": [
     "dist",
     "src",
+    "screenshots",
     "README.md",
     "LICENSE"
   ],

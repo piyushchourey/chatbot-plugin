@@ -1,17 +1,17 @@
-# @piyush/ai-chat-widget
+# @piyushchourey11/ai-chat-widget
 
 A pluggable, standalone AI chatbot widget component for React applications with WebSocket support and form synchronization.
 
 ## Installation
 
 ```bash
-npm install @piyush/ai-chat-widget
+npm install @piyushchourey11/ai-chat-widget
 ```
 
 ## Quick Start
 
 ```tsx
-import { ChatBotProvider, ChatBot } from '@piyush/ai-chat-widget';
+import { ChatBotProvider, ChatBot } from '@piyushchourey11/ai-chat-widget';
 
 function App() {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -56,3 +56,6 @@ See the [full documentation](./docs/README.md) for detailed usage examples and A
 
 MIT
 
+## 📸 Demo Screenshot
+
+![Chatbot Demo](./screenshots/chatbot-loan.png)
