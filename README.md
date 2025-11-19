@@ -1,17 +1,17 @@
-# lendinglogik-chatbot-plugin
+# @piyush/ai-chat-widget
 
-A pluggable, standalone chatbot component for React applications with WebSocket support and form synchronization.
+A pluggable, standalone AI chatbot widget component for React applications with WebSocket support and form synchronization.
 
 ## Installation
 
 ```bash
-npm install lendinglogik-chatbot-plugin
+npm install @piyush/ai-chat-widget
 ```
 
 ## Quick Start
 
 ```tsx
-import { ChatBotProvider, ChatBot } from 'lendinglogik-chatbot-plugin';
+import { ChatBotProvider, ChatBot } from '@piyush/ai-chat-widget';
 
 function App() {
   const [isChatOpen, setIsChatOpen] = useState(false);

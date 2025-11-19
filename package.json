@@ -1,8 +1,8 @@
 {
-  "name": "lendinglogik-chatbot-plugin",
+  "name": "@piyush/ai-chat-widget",
   "version": "1.0.1",
   "type": "module",
-  "description": "A pluggable, standalone chatbot component for React applications with WebSocket support and form synchronization",
+  "description": "A pluggable, standalone AI chatbot widget component for React applications with WebSocket support and form synchronization",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -22,18 +22,31 @@
     "react",
     "chatbot",
     "ai",
+    "ai-chat",
+    "chat-widget",
     "websocket",
     "socket.io",
     "form-sync",
+    "form-synchronization",
     "plugin",
     "component",
-    "typescript"
+    "typescript",
+    "react-component",
+    "ai-assistant",
+    "conversational-ui"
   ],
-  "author": "LendingLogik",
+  "author": "Piyush chourey",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/piyushchourey/chatbot-plugin.git"
+  },
+  "homepage": "https://github.com/piyushchourey/chatbot-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/piyushchourey/chatbot-plugin/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
